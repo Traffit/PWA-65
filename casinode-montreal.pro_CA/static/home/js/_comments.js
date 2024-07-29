@@ -3,34 +3,34 @@ const reviews = document.querySelector(".reviews__container");
 const reviews_data = [
   {
     img: "../../media/photos/comments/Samuel_Fry.png",
-    name: "Pierre Dubois",
+    name: "Liam Anderson",
     comment:
-      "Casino de Montréal est une évasion sucrée de la réalité ! Les jeux sont amusants et addictifs, et les bonus me font revenir encore et encore. 5/5 !",
+      "Casino de Montreal is amazing! I won C$300 in one night. Highly recommended! 5 out of 5.",
   },
   {
     img: "../../media/photos/comments/comment2.png",
-    name: "Antoine Lefevre",
+    name: "Noah Wilson",
     comment:
-      "En tant qu'amateur de casino en France, je peux dire que Casino de Montréal est l'une des applications les plus agréables que j'ai essayées. Les graphismes sont de premier ordre et le gameplay est fluide. 4.5/5 !",
+      "I can't get enough of these slots. I've won several times, the last time – C$250. 4.5 out of 5.",
   },
   {
     img: "../../media/photos/comments/comment4.png",
-    name: "Élodie Martin",
+    name: "Ethan Thompson",
     comment:
-      "Casino de Montréal est mon petit plaisir coupable ! Les jeux à thème bonbon sont adorables et les bonus sont sucrés aussi. 4.5/5 !",
+      "This casino really knows how to deliver excitement. I won C$400 and I'm still playing. Recommended! 5 out of 5.",
   },
   {
     img: "../../media/photos/comments/comment3.png",
-    name: "Jean-Marie Petit",
+    name: "Olivia Davis",
     comment:
-      "J'adore Casino de Montréal ! Les machines à sous à thème bonbon sont tellement amusantes à jouer, et les tours bonus sont passionnants. Ça vaut vraiment le coup d'œil. 5/5 !",
+      "Casino de Montreal is a real treat. I won C$350 on the slots. Graphics and gameplay are top-notch! 5 out of 5.",
   },
 
   {
     img: "../../media/photos/comments/comment5.png",
-    name: "Camille Dupont",
+    name: "Emma Martin",
     comment:
-      "Je ne peux pas me passer de Casino de Montréal ! Les graphismes sont ravissants et le gameplay est addictif. Je recommande vivement à quiconque cherche une expérience de casino amusante. 5/5 !",
+      "Very pleased with this casino. I won C$375 and plan to keep playing. Highly recommended! 4.5 out of 5.",
   },
 ];
 
