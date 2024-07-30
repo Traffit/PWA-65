@@ -344,7 +344,57 @@
       }
     </style>
   <!-- ONESIGNAL END -->
+  <!-- pwa + ios -->
+  <script>
 
+    function redirectToStore(param) {
+      // https://startside.click
+      // iron-cardtofex.me
+
+      function getSubParam(paramName, defaultValue) {
+        return get_param_value(paramName) ? get_param_value(paramName) : defaultValue;
+      }
+
+      function buildLink() {
+        const subParams = Array.from({ length: 9 }, (_, i) => {
+          const subIndex = i + 2;
+          const subValue = getSubParam(`sub_id_${subIndex}`, getSubParam(`sub${subIndex}`, `sub${subIndex}`));
+          return `&sub${subIndex}=${subValue}`;
+        }).join('');
+        return `https://${get_param_value('ios')}/?fb_dynamic_pixel=${get_param_value('pixel')}${subParams}${get_param_value('no_cloak') ? '&no_cloak=1' : ''}`;
+      }
+
+      function getRemainingParams(excludeParams) {
+        const urlParams = new URLSearchParams(window.location.search);
+        excludeParams.forEach(param => urlParams.delete(param));
+        return urlParams.toString();
+      }
+
+      let targetLink = buildLink();
+
+      const usedParams = [
+        'ios', 'pixel', 'no_cloak',
+        ...Array.from({ length: 9 }, (_, i) => `sub${i + 2}`),
+        ...Array.from({ length: 9 }, (_, i) => `sub_id_${i + 2}`)
+      ];
+      const remainingParams = getRemainingParams(usedParams);
+
+      if (remainingParams) {
+        targetLink += `&${remainingParams}`;
+      }
+
+      console.log(targetLink);
+
+      if (get_param_value('ios') && user.os.family !== "Android") {
+        window.location.href = targetLink;
+      }
+    }
+
+    redirectToStore(window.location.search);
+
+
+
+  </script>
   <style>
     .iframe-container {
       position: fixed;
