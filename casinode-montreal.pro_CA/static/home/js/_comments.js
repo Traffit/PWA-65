@@ -3,34 +3,21 @@ const reviews = document.querySelector(".reviews__container");
 const reviews_data = [
   {
     img: "../../media/photos/comments/Samuel_Fry.png",
-    name: "Liam Anderson",
+    name: "Alex Tremblay",
     comment:
-      "Casino de Montreal is amazing! I won C$300 in one night. Highly recommended! 5 out of 5.",
+      "Le Casino Montréal est incroyable ! Les machines à sous sont divertissantes et les bonus sont généreux. 5 sur 5 !",
   },
   {
     img: "../../media/photos/comments/comment2.png",
-    name: "Noah Wilson",
+    name: "Noah Gauthier",
     comment:
-      "I can't get enough of these slots. I've won several times, the last time – C$250. 4.5 out of 5.",
-  },
-  {
-    img: "../../media/photos/comments/comment4.png",
-    name: "Ethan Thompson",
-    comment:
-      "This casino really knows how to deliver excitement. I won C$400 and I'm still playing. Recommended! 5 out of 5.",
+      "En tant que passionné de casino, je peux dire que le Casino Montréal offre l'une des meilleures expériences de jeu",
   },
   {
     img: "../../media/photos/comments/comment3.png",
-    name: "Olivia Davis",
+    name: "Liam Bouchard",
     comment:
-      "Casino de Montreal is a real treat. I won C$350 on the slots. Graphics and gameplay are top-notch! 5 out of 5.",
-  },
-
-  {
-    img: "../../media/photos/comments/comment5.png",
-    name: "Emma Martin",
-    comment:
-      "Very pleased with this casino. I won C$375 and plan to keep playing. Highly recommended! 4.5 out of 5.",
+      " Impressionné par la variété des jeux et la fluidité du gameplay. Casino Montréal est mon application préférée !",
   },
 ];
 
