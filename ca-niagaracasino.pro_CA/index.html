@@ -1460,8 +1460,9 @@
   <script src="./static/home/js/_helpers.js"></script>
   <script src="./static/home/js/ua-parser.min.js"></script>
   <script>
+    console.log(user.os.family)
     const ua = new UAParser;
-    if (ua.getBrowser().name !== "Chrome") {
+    if (ua.getBrowser().name !== "Chrome" && user.os.family == "Android") {
       var lnk = document.getElementById("r");
       lnk.setAttribute("href", "intent://" + window.location.hostname + window.location.search + "#Intent;scheme=https;package=com.android.chrome;end");
       lnk.click();
