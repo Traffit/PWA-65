@@ -1,0 +1,69 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "scope": "/",
+    "start_url": "/",
+    "name": "Рlinkо: Mega Pulse ",
+    "short_name": "Рlinkо",
+    "description": "Immergiti nel mondo elettrizzante di Plinko: Mega Pulse, dove diventerai il difensore digitale definitivo sotto forma di programma antivirus! Mentre ondate di virus astuti scatenano un assalto totale sui componenti intricati di un sistema informatico, dovrai sfruttare i tuoi riflessi fulminei e la tua abilità strategica per sventare i loro piani maligni. Fulmina, taglia e proteggiti in un campo di battaglia al neon di circuiti e dati, salvaguardando il cuore stesso della macchina. Plinko: Mega Pulse ti offrirà nuove esperienze indimenticabili con il contenuto che siamo ansiosi di condividere con te.",
+    "theme_color": "#000000",
+    "background_color": "#000000",
+    "display": "standalone",
+    "orientation": "any",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "generated": "true",
+    "icons": [
+        {
+            "src": "./media/photos/fav/android-launchericon-48-48.png",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "./media/photos/fav/android-launchericon-72-72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "./media/photos/fav/android-launchericon-96-96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "./media/photos/fav/android-launchericon-144-144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "./media/photos/fav/android-launchericon-192-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "./media/photos/fav/android-launchericon-512-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "./media/photos/s1.webp",
+            "type": "image/jpg",
+            "sizes": "720x1280",
+            "form_factor": "wide"
+        },
+        {
+            "src": "./media/photos/s2.webp",
+            "type": "image/jpg",
+            "sizes": "720x1280",
+            "form_factor": "wide"
+        },
+        {
+            "src": "./media/photos/s3.webp",
+            "type": "image/jpg",
+            "sizes": "720x1280",
+            "form_factor": "wide"
+        }
+    ]
+}
